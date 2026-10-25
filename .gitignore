@@ -1,0 +1,8 @@
+# Dependencies
+node_modules/
+
+# Uploaded files
+.uploads/
+
+# OS
+.DS_Store

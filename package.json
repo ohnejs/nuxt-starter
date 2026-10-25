@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-starter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --filter web build",
+    "dev": "pnpm --recursive --parallel dev",
+    "format": "oxfmt",
+    "lint": "oxlint",
+    "test": "pnpm --recursive test && node --test \"tests/**/*.test.ts\"",
+    "typecheck": "pnpm --recursive typecheck"
+  },
+  "devDependencies": {
+    "oxfmt": "0.55.0",
+    "oxlint": "1.70.0"
+  },
+  "packageManager": "pnpm@11.5.1"
+}

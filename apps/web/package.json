@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "postinstall": "nuxt prepare",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@ohnejs/client": "catalog:",
+    "@ohnejs/nuxt": "catalog:",
+    "nuxt": "catalog:",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "vue-tsc": "catalog:"
+  }
+}
