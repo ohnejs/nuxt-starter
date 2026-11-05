@@ -30,7 +30,7 @@ describe('`apps/backend` matches what the installed `ohne init` scaffolds', () =
 
   after(() => rm(scaffold, { recursive: true, force: true }));
 
-  for (const file of ['tsconfig.json', '.gitignore']) {
+  for (const file of ['tsconfig.json', 'dashboard/tsconfig.json', '.gitignore']) {
     test(`\`${file}\` byte for byte`, async () => {
       const [ours, theirs] = await Promise.all([
         readFile(join(backend, file)),
